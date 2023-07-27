@@ -1,0 +1,6 @@
+export { default as IconArrowDown } from './icon-arrow-down'
+export { default as IconArrowLeft } from './icon-arrow-left'
+export { default as IconArrowRight } from './icon-arrow-right'
+export { default as IconArrowUp } from './icon-arrow-up'
+export { default as IconWallet } from './icon-wallet'
+export { default as IconX } from './icon-x'

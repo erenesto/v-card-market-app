@@ -1,0 +1,22 @@
+.wallet {
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  border-radius: var(--border-radius);
+  height: 4.8rem;
+  overflow: hidden;
+}
+
+.walletIcon {
+  display: inline-flex;
+  background-color: var(--red-color);
+  padding: 0.8rem;
+}
+
+.walletBalance {
+  font-size: var(--title-size);
+  line-height: 3.2rem;
+  font-weight: 600;
+  background-color: var(--gray-dark);
+  padding: 0.8rem 2.1rem;
+}

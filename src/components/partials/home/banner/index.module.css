@@ -1,0 +1,12 @@
+.banner {
+  height: 44rem;
+  background: url(/slider_photo.png) no-repeat center;
+  background-size: cover;
+}
+
+.wrapper {
+  margin: 0 auto;
+  max-width: 86.5rem;
+  width: 100%;
+  height: 100%;
+}

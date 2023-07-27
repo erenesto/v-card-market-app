@@ -1,0 +1,39 @@
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.6rem;
+  margin-top: 4.8rem;
+}
+
+.numbers {
+  display: flex;
+  justify-content: center;
+  gap: 0.8rem;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: var(--title-size-sm);
+  cursor: pointer;
+  color: #ffffff;
+  background-color: var(--gray-light);
+  width: 3.2rem;
+  height: 3.2rem;
+  border-radius: 50%;
+}
+
+.active {
+  background-color: var(--red-color);
+  font-weight: 600;
+}
+
+.arrow {
+  display: inline-flex;
+  color: var(--gray);
+  font-weight: 600;
+  cursor: pointer;
+  min-width: 3.2rem;
+}

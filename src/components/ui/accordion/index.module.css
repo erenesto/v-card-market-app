@@ -1,0 +1,48 @@
+.accordion {
+  width: 100%;
+  color: var(--font-color);
+  overflow: hidden;
+  border-radius: var(--border-radius);
+}
+
+.content {
+  max-height: 0;
+  /* padding: 0 1em; */
+  color: var(--font-color);
+  background: #fff;
+  transition: all 0.35s;
+  opacity: 0;
+}
+
+.inner {
+  padding-bottom: 1em;
+}
+
+.label {
+  display: flex;
+  justify-content: space-between;
+  padding: 1em 0;
+  background: #fff;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.input {
+  position: absolute;
+  opacity: 0;
+  z-index: -9999;
+}
+
+.input:checked + .label {
+  background: #fff;
+}
+
+.input:checked + .label .icon {
+  transform: rotate(180deg);
+}
+
+.input:checked ~ .content {
+  max-height: 100vh;
+  height: auto;
+  opacity: 1;
+}

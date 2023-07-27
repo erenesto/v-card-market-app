@@ -1,0 +1,35 @@
+{
+  "name": "v-card-market-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently \"next dev\" \"yarn json-server\"",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "icons": "svgr src/assets/icons -d src/components/icons --filename-case kebab --ignore-existing --icon",
+    "json-server": "json-server --watch db.json --port 3001"
+  },
+  "dependencies": {
+    "add": "^2.0.6",
+    "classnames": "^2.3.2",
+    "concurrently": "^8.2.0",
+    "json-server": "^0.17.3",
+    "next": "12.2.2",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-slick": "^0.29.0",
+    "react-slider": "^2.0.4",
+    "slick-carousel": "^1.8.1",
+    "slugify": "^1.6.5",
+    "swr": "^2.0.0",
+    "uuid": "^9.0.0",
+    "yarn": "^1.22.19"
+  },
+  "devDependencies": {
+    "@svgr/cli": "^6.5.1",
+    "eslint": "8.31.0",
+    "eslint-config-next": "12.2.2",
+    "prettier": "^2.8.1"
+  }
+}

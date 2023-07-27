@@ -1,0 +1,10 @@
+.market {
+  display: grid;
+  grid-template-columns: 20rem 3fr;
+  gap: 2.4rem;
+}
+
+.title {
+  font-size: var(--title-size);
+  margin-bottom: 2.4rem;
+}

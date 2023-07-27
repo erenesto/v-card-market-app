@@ -1,0 +1,16 @@
+.input {
+  position: absolute;
+  opacity: 0;
+  z-index: -9999;
+}
+
+.label {
+  display: flex;
+  justify-content: space-between;
+  color: var(--gray);
+  cursor: pointer;
+}
+
+.input:checked + .label {
+  font-weight: 600;
+}
